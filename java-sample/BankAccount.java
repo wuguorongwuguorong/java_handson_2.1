@@ -1,8 +1,8 @@
 //Write your class code here
 class BankAccount {
-    private String firstName;
-    private String lastName;
-    private double balance;
+    protected String firstName;
+    protected String lastName;
+    protected double balance;
 
     public String getFirstName() {
         return firstName;
@@ -30,8 +30,12 @@ class BankAccount {
         this.balance = balance; 
     }
     public BankAccount(){
-        firstName = "Jon";
-        lastName ="Snow";
-        balance = 500; 
+        firstName = "N/A";
+        lastName ="N/A"; 
+        balance = 0;
+    }
+    public BankAccount(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 }
