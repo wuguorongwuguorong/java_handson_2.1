@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+package Book;
 
 
 public class Main
@@ -7,7 +9,7 @@ public class Main
         a.setFirstName("Jon");
         a.setLastName("Snow");
         a.setBalance(500);
-        System.out.println(a.setFirstName() + " " + a.setLastName() + " " + a.setBalance());
+        System.out.println(a.setFirstName(String) + " " + a.setLastName(String) + " " + a.setBalance());
 
 	}
 }
